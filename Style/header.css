@@ -1,7 +1,8 @@
 .header {
   width: 100%;
   height: 60px;
-  position: relative;
+  position: absolute;
+  z-index: 0;
 }
 
 #tesla-logo {
@@ -50,8 +51,3 @@
   width: 24px;
   vertical-align: middle;
 }
-
-#profile-icon {
-  width: 24px;
-}
-
