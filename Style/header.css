@@ -1,9 +1,30 @@
-.header {
+
+/* COMMON OF HEADER */
+
+header {
+  margin: 0;
   width: 100%;
-  height: 60px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
   position: absolute;
-  z-index: 1000;
+  z-index: 100;
 }
+
+.logo-div ,
+.center-nav ,
+.end-nav {
+  flex: 1;
+  align-items: center;
+}
+
+.center-nav ,
+.end-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* TESLA LOGO */
 
 #tesla-logo {
   width: 142px;
@@ -11,43 +32,49 @@
   margin-left: 38px;
   cursor: pointer;
   vertical-align: middle;
-  margin-top: -7px;
+  margin-top: 2px;
 }
 
-.header-texts {
-  display: inline-block;
-  margin-left: 570px;
-  margin-top: 18px;
-  
+/* HEADER BUTTONS */
+
+.buttons-header {
+  margin-left: 112px;
+  display: flex;
 }
 
-.header-text {
-  display: inline-block;
-  font-family: "Gotham SSm",  "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  display: inline;
-  vertical-align: middle;
-  font-weight: 500;
-  color: rgb(68, 69, 71);
-  font-size: 14px;
+.header-buttons {
+  padding-bottom : 4px;
+  padding-left : 8px;
+  padding-right : 8px;
+  padding-top : 4px;
   cursor: pointer;
-  margin-right: 28px;
-}
-
-.img-icons {
-  display: inline-block;
-  margin-left: 571px;
-  margin-top: 16px;
-}
-
-.img-button {
+  margin-right: 16px;
   background: none;
   border: none;
-  cursor: pointer;
-  width: 30px;
 }
 
+.button-text-header {
+  font-size: 14px;
+  font-family : "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;
+  color: rgb(23, 26, 32);
+}
+
+/* NAV ICONS */
+
+.end-nav {
+  justify-content: flex-end;
+}
+
+.end-nav-buttons {
+  margin-top: 4px;
+  margin-right: 31px;
+}
 
 .icon {
-  width: 24px;
-  vertical-align: middle;
+  cursor: pointer;
+  padding-bottom : 4px;
+  padding-left : 4px;
+  padding-right : 4px;
+  padding-top : 4px;
 }

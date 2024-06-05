@@ -2,3 +2,7 @@ body {
   margin: 0px;
 }
 
+.sup-price {
+  font-size: 10px; 
+  font-weight: 200px;
+}
