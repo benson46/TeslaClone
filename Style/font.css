@@ -1,39 +1,63 @@
 @font-face {
-  font-display: swap;
   font-family: Gotham SSm;
-  font-style: normal;
   font-weight: 700;
-  src: url(fonts/GothamSSm-Bold_Web.woff2);
+  font-display: swap;
+  font-style: normal;
+  src: url(fonts/GothamSSm-Bold_Web.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: Gotham SSm;
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+  src: url(fonts/GothamSSm-Medium_Web.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: Gotham SSm;
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+  src: url(fonts/GothamSSm-Book_Web.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: Gotham SSm;
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+  src: url(fonts/GothamSSm-Light_Web.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: Gotham SSm;
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+  src: url(fonts/GothamSSm-XLight_Web.woff2) format("woff2")
 }
 
 @font-face {
   font-display: swap;
-  font-family: Gotham SSm;
+  font-family: Universal Sans Display;
   font-style: normal;
   font-weight: 500;
-  src: url(fonts/GothamSSm-Medium_Web.woff2);
+  src: url(fonts/Universal-Sans-Display-Medium.woff2) format("woff2")
 }
 
 @font-face {
   font-display: swap;
-  font-family: Gotham SSm;
+  font-family: Universal Sans Text;
   font-style: normal;
-  font-weight: 400;
-  src: url(fonts/GothamSSm-Book_Web.woff2);
+  font-weight: 500;
+  src: url(fonts/Universal-Sans-Text-Medium.woff2) format("woff2")
 }
 
 @font-face {
   font-display: swap;
-  font-family: Gotham SSm;
+  font-family: Universal Sans Display;
   font-style: normal;
-  font-weight: 300;
-  src: url(fonts/GothamSSm-Light_Web.woff2);
-}
-
-@font-face {
-  font-display: swap;
-  font-family: Gotham SSm;
-  font-style: normal;
-  font-weight: 200;
-  src: url(fonts/GothamSSm-XLight_Web.woff2);
+  font-weight: 500;
+  src: url(fonts/Universal-Sans-Display-Medium.woff2) format("woff2")
 }

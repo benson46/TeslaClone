@@ -1,80 +1,94 @@
-
-/* COMMON OF HEADER */
+/* HEADER */
 
 header {
-  margin: 0;
-  width: 100%;
-  height: 56px;
-  display: flex;
-  justify-content: space-between;
   position: absolute;
+  display: flex;
+  width: 100%;
   z-index: 100;
 }
 
-.logo-div ,
-.center-nav ,
-.end-nav {
-  flex: 1;
-  align-items: center;
-}
+/* LOGO DIV */
 
-.center-nav ,
-.end-nav {
-  display: flex;
-  align-items: center;
+#tesla-logo-div {
+  width: 38%;
 }
-
-/* TESLA LOGO */
 
 #tesla-logo {
-  width: 142px;
   height: 45px;
   margin-left: 38px;
-  cursor: pointer;
-  vertical-align: middle;
   margin-top: 2px;
+  width: 142px;
+  cursor: pointer;
 }
 
 /* HEADER BUTTONS */
 
-.buttons-header {
-  margin-left: 112px;
-  display: flex;
+#tesla-header-buttons {
+  width: 24%;
 }
+
+#tesla-list {
+  display: flex;
+  padding-left: 8px;
+}
+
 
 .header-buttons {
-  padding-bottom : 4px;
-  padding-left : 8px;
-  padding-right : 8px;
-  padding-top : 4px;
-  cursor: pointer;
-  margin-right: 16px;
-  background: none;
-  border: none;
+  list-style-type: none;
 }
 
-.button-text-header {
+.button-header {
+  margin-left: 0;
+  margin-right: 0;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 10px;
+  background: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.button-header:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.button-text {
+  font-family: 'Gotham SSm';
   font-size: 14px;
-  font-family : "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 500;
+  text-align: center;
   color: rgb(23, 26, 32);
 }
 
 /* NAV ICONS */
 
 .end-nav {
+  align-items: center;
+  display: flex;
+  height: 56px;
   justify-content: flex-end;
+  width: 37.98%;
 }
 
 .end-nav-buttons {
-  margin-top: 4px;
+  display: flex;
   margin-right: 31px;
+  margin-top: 0px;
 }
 
 .icon {
-  cursor: pointer;
   padding-bottom : 4px;
   padding-left : 4px;
   padding-right : 4px;
   padding-top : 4px;
+  background: none;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.icon:hover {
+  background-color: rgba(0, 0, 0, 0.08);
 }

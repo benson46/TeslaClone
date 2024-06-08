@@ -1,62 +1,109 @@
-
-/*-------------------------------------------HOME SCREEN IMAGE 1-------------------------------------------*/
-
-#image-1-full-continer {
-  margin: 0;
+/*-------------------------------------------CLASS OF MAIN-------------------------------------------*/
+.image-2-3-full-continer {
+  margin-top: -1px;
 }
 
-#homepage-image1 {
-  width: 100%;
+.image-4-9-full-continer {
+  margin-top: -4px;
+}
+
+.homepage-image {
   position: relative;
-  height: auto;
-}
-
-/* TEXTS ABOVE HOME SCREEN IMAGE 1 */
-.homepage-image1-texts {
-  position: absolute;
-  top: 128px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
   width: 100%;
 }
 
-#model-3 {
+.model-name-black,
+.model-name-white {
+  margin-bottom: 8px;
   font-family : "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size : 40px;
   font-weight : 500;
   letter-spacing : -0.6px;
   text-align : center;
   color : rgb(23, 26, 32);
-  margin-bottom: 8px;
+}
 
+.model-name-white {
+  color: rgb(255, 255, 255);
 }
 
 .rate {
   margin: 0;
 }
 
-#img1-price {
+.price-black,
+.price-white {
+  margin-bottom: 0;
   font-family : "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size : 17px;
   font-weight : 500;
+  line-height: 1px;
   text-align : center;
   color : rgb(23, 26, 32);
-  text-size-adjust : 100%;
-  margin-bottom: 0;
-  line-height: 1px;
 }
 
-#img1-price-info {
+.price-white {
+  color: rgb(255, 255, 255);
+}
+
+.price-info-black,
+.price-info-white {
+  margin-top: 0;
   font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 10.2px;
   font-weight: 400;
   text-align: center;
 }
 
+.price-info-white {
+  color: rgb(255, 255, 255);
+}
+
+.button-img {
+  height: 40px;
+  width: 264px;
+  margin-right: 24px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button-text-img {
+  font-family : "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size : 14px;
+  font-weight : 500;
+  text-align : center;
+  color : rgb(57, 60, 65);
+}
+
+.demo-drive-button {
+  background-color : rgb(23, 26, 32);
+}
+
+.demo-drive-text {
+  color : rgb(255, 255, 255);
+
+}
+
+/*-------------------------------------------HOME SCREEN IMAGE 1-------------------------------------------*/
+#image-1-full-continer {
+  margin: 0;
+}
+
+/* TEXTS ABOVE HOME SCREEN IMAGE 1 */
+
+#homepage-image1-texts {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 128px;
+  width: 100%;
+  text-align: center;
+}
+
 /* BUTTONS ABOVE HOME SCREEN IMAGE 1 */
 
-.img1-options-order {
+#img1-options-order {
   display: flex;
   justify-content: center;
   position: absolute;
@@ -64,46 +111,11 @@
   left: 676px;  
 }
 
-.button-img1 {
-  width: 264px;
-  height: 40px;
-  border: none;
-  border-radius: 3px;
-  margin-right: 24px;
-  cursor: pointer;
-}
-
-.button-text-img1 {
-  text-align : center;
-  font-family : "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size : 14px;
-  font-weight : 500;
-  color : rgb(57, 60, 65);
-}
-
-#demo-drive-button-img1 {
-  background-color : rgb(23, 26, 32);
-}
-
-#demo-drive-text-img1 {
-  color : rgb(255, 255, 255);
-}
-
-
-
 /*-------------------------------------------HOME SCREEN IMAGE 2-------------------------------------------*/
-
-.image-2-full-continer {
-  margin-top: -1px;
-}
-
-#homepage-image2 {
-  width: 100%;
-}
 
 /* TEXTS ABOVE HOME SCREEN IMAGE 2 */
 
-.homepage-image2-texts {
+#homepage-image2-texts {
   position: absolute;
   top: 1075px;
   left: 868px;
@@ -112,33 +124,9 @@
   text-align: center;
 }
 
-#model-y {
-  font-family:"Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  margin-bottom : 0px;
-  font-size : 40px;
-  font-weight : 500;
-  letter-spacing : -0.6px;
-  margin-bottom: 6px;
-}
-
-
-#img2-price {
-  font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size : 17px;
-  font-weight : 500;
-  margin-bottom: 0;
-}
-
-#img2-price-info {
-  font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size : 10.2px;
-  font-weight : 400;
-  margin-top: 0;
-}
-
 /* BUTTONS ABOVE HOME SCREEN IMAGE 1 */
 
-.img2-options-order {
+#img2-options-order {
   display: flex;
   justify-content: center;
   position: absolute;
@@ -146,44 +134,11 @@
   left: 676px;  
 }
 
-.button-img2 {
-  width: 264px;
-  height: 40px;
-  border: none;
-  border-radius: 3px;
-  margin-right: 24px;
-  cursor: pointer;
-}
-
-.button-text-img2 {
-  text-align : center;
-  font-family : "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size : 14px;
-  font-weight : 500;
-  color : rgb(57, 60, 65);
-}
-
-#demo-drive-button-img2 {
-  background-color : rgb(23, 26, 32);
-}
-
-#demo-drive-text-img2 {
-  color : rgb(255, 255, 255);
-}
-
 /*-------------------------------------------HOME SCREEN IMAGE 3-------------------------------------------*/
-
-.image-3-full-continer {
-  margin-top: -1px;
-}
-
-#homepage-image3 {
-  width: 100%;
-}
 
 /* TEXTS ABOVE HOME SCREEN IMAGE 3 */
 
-.homepage-image3-texts {
+#homepage-image3-texts {
   position: absolute;
   top: 2021px;
   left: 867px;
@@ -192,33 +147,10 @@
   text-align: center;
 }
 
-#model-x {
-  font-family:"Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  margin-bottom : 0px;
-  font-size : 40px;
-  font-weight : 500;
-  letter-spacing : -0.6px;
-  margin-bottom: 6px;
-}
-
-
-#img3-price {
-  font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size : 17px;
-  font-weight : 500;
-  margin-bottom: 0;
-}
-
-#img3-price-info {
-  font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size : 10.2px;
-  font-weight : 400;
-  margin-top: 0;
-}
 
 /* BUTTONS ABOVE HOME SCREEN IMAGE 3 */
 
-.img3-options-order {
+#img3-options-order {
   display: flex;
   justify-content: center;
   position: absolute;
@@ -226,28 +158,212 @@
   left: 676px;
 }
 
-.button-img3 {
+/*-------------------------------------------HOME SCREEN IMAGE 4-------------------------------------------*/
+
+/* TEXTS ABOVE HOME SCREEN IMAGE 4 */
+
+#homepage-image4-texts {
+  position: absolute;
+  top: 2968px;
+  left: 867px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+/* BUTTONS ABOVE HOME SCREEN IMAGE 4 */
+
+#img4-options-order {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 3633px;
+  left: 676px;
+}
+
+
+/*-------------------------------------------HOME SCREEN IMAGE 5-------------------------------------------*/
+
+/* TEXT IMAGE ABOVE CYBERTRUCK PHOTO */
+
+#cybertruck-img {
+  position: absolute;
+  width: 450px;
+  top: 3781px;
+  width: 588px;
+  left: 658px;
+}
+
+/* BUTTONS ABOVE HOME SCREEN IMAGE 5 */
+
+#img5-options-order {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 4572px;
+  left: 676px;
+}
+
+#button-img5-order {
+  background-color: rgb(17,17,17);
+  height: 45px;
   width: 264px;
-  height: 40px;
-  border: none;
-  border-radius: 3px;
   margin-right: 24px;
   cursor: pointer;
+  border: none;
+  border-top: solid;
+  border-top-width: 3px;
+  border-top-color: rgb(142, 142, 142);
+  opacity: 0.9;
 }
 
-.button-text-img3 {
-  text-align : center;
+#button-img5-ordertext {
   font-family : "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size : 14px;
-  font-weight : 500;
-  color : rgb(57, 60, 65);
+  font-size : 13px;
+  font-weight : 700;
+  text-align : center;
+  color: rgb(162, 163, 165);
+  text-transform: uppercase;
 }
 
-#demo-drive-button-img3 {
-  background-color : rgb(23, 26, 32);
+#button-img5-learn {
+  background-color: rgb(17,17,17);
+  border-color: rgb(57, 60, 65);
+  height: 45px;
+  width: 264px;
+  margin-right: 24px;
+  cursor: pointer;
+  opacity: 0.9;
+  border: solid;
+  border-color: rgb(57, 60, 65);
+  border-width: 1px;
 }
 
-#demo-drive-text-img3 {
-  color : rgb(255, 255, 255);
+#button-img5-learntext {
+  font-family : "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size : 13px;
+  font-weight : 700;
+  text-align : center;
+  color: rgb(162, 163, 165);
+  text-transform: uppercase;
+}
+/*-------------------------------------------HOME SCREEN IMAGE 6-------------------------------------------*/
+
+/* TEXTS ABOVE HOME SCREEN IMAGE 6 */
+
+#homepage-image6-texts {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 4832px;
+  left: 846px;
 }
 
+
+#img6-product {
+  font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+/*link on the text */
+#schedule-consultation {
+  margin-top: 0;
+  font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+  font-size: 13.8px;
+  font-weight: 400;
+  text-align: center;
+}
+#consultation-link {
+  color: rgb(238, 238, 238);
+  text-underline-offset: 3px;
+}
+
+
+
+/* BUTTONS ABOVE HOME SCREEN IMAGE 6 */
+
+#img6-options-order {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 5523px;
+  left: 677px;
+}
+/*-------------------------------------------HOME SCREEN IMAGE 7-------------------------------------------*/
+
+/* TEXTS ABOVE HOME SCREEN IMAGE 7 */
+
+#homepage-image7-texts {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 5778px;
+  left: 810px;
+}
+
+#solar-roof-description {
+  margin-top: 0;
+  font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(57, 60, 65);
+}
+
+/* BUTTONS ABOVE HOME SCREEN IMAGE 7 */
+
+#img7-options-order {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 6468px;
+  left: 675px;
+}
+/*-------------------------------------------HOME SCREEN IMAGE 8-------------------------------------------*/
+
+/* TEXTS ABOVE HOME SCREEN IMAGE 8 */
+
+#homepage-image8-texts {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 6735px;
+  left: 847px;
+}
+
+/* BUTTONS ABOVE HOME SCREEN IMAGE 8 */
+
+#img8-options-order {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 7412px;
+  left: 675px;
+}
+
+/*-------------------------------------------HOME SCREEN IMAGE 9-------------------------------------------*/
+
+/* TEXTS ABOVE HOME SCREEN IMAGE 9 */
+
+#homepage-image9-texts {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 7680px;
+  left: 824px;
+}
+
+/* BUTTONS ABOVE HOME SCREEN IMAGE 9 */
+
+#img9-options-order {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 8333px;
+  left: 820px;
+}

@@ -1,138 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <!--META TAGS-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--HEAD DISPLAY-->
+  <title>Electric Cars, Solar &amp; Clean Energy | Tesla</title>
+  <link rel="icon" href="Tesla-Images/head_display.ico">
+  <!--CSS-->
+  <link rel="stylesheet" href="Style/comman.css">
+  <link rel="stylesheet" href="Style/header.css">
+  <link rel="stylesheet" href="Style/main.css">
+  <!--FONTS-->
+  <link rel="stylesheet" href="Style/font.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+  <!--BODY STARTING-->
+<body>
+  <!--HEADER-->
+  <header>
+    <!--LOGO DIV-->
+    <div id="tesla-logo-div">
+      <img id="tesla-logo" src="Tesla-Images/header/tesla-logo.png" alt="Tesla Logo" title="logo of tesla">
+    </div>
+    <!--HEADER BUTTONS-->
+    <div id="tesla-header-buttons">
+      <ul id="tesla-list">
 
-  <head>
-
-    <!------------------------------------META TAGS------------------------------------>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!------------------------------------HEAD DISPLAY------------------------------------>
-
-    <title>Electric Cars, Solar &amp; Clean Energy | Tesla</title>
-    <link rel="icon" href="Tesla-Images/head display.ico">
-
-    <!------------------------------------CSS------------------------------------>
-    <link rel="stylesheet" href="Style/comman.css">
-    <link rel="stylesheet" href="Style/header.css">
-    <link rel="stylesheet" href="Style/main.css">    
-
-    <!------------------------------------FONTS------------------------------------>
-    <link rel="stylesheet" href="Style/font.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  </head>
-  <!------------------------------------BODY STARTING------------------------------------>
-  <body>
-    <!------------------------------------HEADER------------------------------------>
-    <header>
-      <!--TESLA LOGO-->
-      <div class="logo-div">
-        <img id="tesla-logo" src="Tesla-Images/header/tesla-logo.png" alt="Tesla Logo">
-      </div>
-      <!--HEADER BUTTONS-->
-      <div class="center-nav">
-        <div class="buttons-header">
-          <button class="header-buttons">
-            <span class="button-text-header">Vehicles</span>
+        <li class="header-buttons">
+          <button class="button-header">
+            <span class="button-text">Vehicles</span>
           </button>
-          <button class="header-buttons">
-            <span class="button-text-header">Energy</span>
+        </li>
+
+        <li class="header-buttons">
+          <button class="button-header">
+            <span class="button-text">Energy</span>
           </button>
-          <button class="header-buttons">
-            <span class="button-text-header">Charging</span>
+        </li>
+
+        <li class="header-buttons">
+          <button class="button-header">
+            <span class="button-text">Charging</span>
           </button>
-          <button class="header-buttons">
-            <span class="button-text-header">Discover</span>
+        </li>
+
+        <li class="header-buttons">
+          <button class="button-header">
+            <span class="button-text">Discover</span>
           </button>
-          <button class="header-buttons">
-            <span class="button-text-header">Shop</span>
+        </li>
+
+        <li class="header-buttons">
+          <button class="button-header">
+            <span class="button-text">Shop</span>
           </button>
-        </div>
-      </div>
+        </li>
+
+      </ul>
+    </div>
       <!--NAV ICONS-->
       <div class="end-nav">
         <div class="end-nav-buttons">
           <img class="icon" src="Tesla-Images/header/support-icon.png" alt="Support Icon">
           <img class="icon" src="Tesla-Images/header/language-icon.png" alt="Language Icon">
           <img class="icon" src="Tesla-Images/header/profile-icon.png" alt="Profile Icon">
-        </div>  
+        </div>
       </div>
     </header>
-
-    <!------------------------------------MAIN------------------------------------>
+    <!--MAIN-->
     <main>
-      <!------------------------------------HOME SCREEN IMAGE 1------------------------------------>
       <div id="image-1-full-continer">
         <!--HOME SCREEN IMAGE 1-->
-        <img id="homepage-image1" src="Tesla-Images/homepage/Homepage-Image1.png" alt="Model Y">
+        <img class="homepage-image" src="Tesla-Images/homepage/Homepage-Image1.png" alt="Model 3">
         <!--TEXTS ABOVE HOME SCREEN IMAGE 1-->
-        <div class="homepage-image1-texts">
-          <h1 id="model-3">Model 3</h1>
+        <div id="homepage-image1-texts">
+          <h1 class="model-name-black">Model 3</h1>
           <p class="rate">
-            <strong id="img1-price">From $33,990<sup class="sup-price">1</sup></strong>
+            <strong class="price-black">From $33,990<sup class="sup-price">1</sup></strong>
             <br>
             <sub>
-              <small id="img1-price-info">After Est. Savings</small>
+              <small class="price-info-black">After Est. Savings</small>
             </sub>
           </p>
         </div>
         <!--BUTTONS ABOVE HOME SCREEN IMAGE 1-->
-        <div class="img1-options-order">
-          <button class="button-img1">
-            <span class="button-text-img1">Order Now</span>
+        <div id="img1-options-order">
+          <button class="button-img">
+            <span class="button-text-img">Order Now</span>
           </button>
-          <button class="button-img1" id="demo-drive-button-img1">
-            <span class="button-text-img1" id="demo-drive-text-img1">Demo Drive</span>
+          <button class="button-img demo-drive-button">
+            <span class="button-text-img demo-drive-text">Demo Drive</span>
           </button>
         </div>
       </div>
       <!------------------------------------HOME SCREEN IMAGE 2------------------------------------>
-      <div id="image-2-full-continer" >
+      <div class="image-2-3-full-continer">
         <!--HOME SCREEN IMAGE 2-->
-        <img id="homepage-image2" src="Tesla-Images/homepage/Homepage-Image2.png">
+        <img class="homepage-image" src="Tesla-Images/homepage/Homepage-Image2.png" alt="Model Y">
         <!--TEXTS ABOVE HOME SCREEN IMAGE 2-->
-        <div class="homepage-image2-texts">
-          <h1 id="model-y">Model Y</h1>
+        <div id="homepage-image2-texts">
+          <h1 class="model-name-black">Model Y</h1>
           <p class="rate">
-            <strong id="img2-price">From $31,490<sup class="sup-price">2</sup></strong>
+            <strong class="price-black">From $31,490<sup class="sup-price">2</sup></strong>
             <br>
             <sub>
-              <small id="img2-price-info">After Est. Savings</small>
+              <small class="price-info-black">After Est. Savings</small>
             </sub>
           </p>
         </div>
         <!--BUTTONS ABOVE HOME SCREEN IMAGE 2-->
-        <div class="img2-options-order">
-          <button class="button-img2">
-            <span class="button-text-img2">Order Now</span>
+        <div id="img2-options-order">
+          <button class="button-img">
+            <span class="button-text-img">Order Now</span>
           </button>
-          <button class="button-img2" id="demo-drive-button-img2">
-            <span class="button-text-img2" id="demo-drive-text-img2">Demo Drive</span>
+          <button class="button-img demo-drive-button">
+            <span class="button-text-img demo-drive-text">Demo Drive</span>
           </button>
         </div>
       </div>
       <!------------------------------------HOME SCREEN IMAGE 3------------------------------------>
-      <div id="image-3-full-continer" >
-        <!--HOME SCREEN IMAGE 3-->
-        <img id="homepage-image3" src="Tesla-Images/homepage/Homepage-Image3.png">
+      <div class="image-2-3-full-continer">
+        <img class="homepage-image" src="Tesla-Images/homepage/Homepage-Image3.png" alt="Model X">
         <!--TEXTS ABOVE HOME SCREEN IMAGE 3-->
-        <div class="homepage-image3-texts">
-          <h1 id="model-x">Model X</h1>
+        <div id="homepage-image3-texts">
+          <h1 class="model-name-black">Model X</h1>
           <p class="rate">
-            <strong id="img3-price">From $63,990<sup class="sup-price">3</sup></strong>
+            <strong class="price-black">From $63,990<sup class="sup-price">3</sup></strong>
             <br>
             <sub>
-              <small id="img3-price-info">After Est. Savings</small>
+              <small class="price-info-black">After Est. Savings</small>
             </sub>
           </p>
         </div>
-        <!--BUTTONS ABOVE HOME SCREEN IMAGE 2-->
-        <div class="img3-options-order">
-          <button class="button-img3">
-            <span class="button-text-img3">Order Now</span>
+        <!--BUTTONS ABOVE HOME SCREEN IMAGE 3-->
+        <div id="img3-options-order">
+          <button class="button-img">
+            <span class="button-text-img">Order Now</span>
           </button>
-          <button class="button-img3" id="demo-drive-button-img3">
-            <span class="button-text-img3" id="demo-drive-text-img3">Demo Drive</span>
+          <button class="button-img demo-drive-button">
+            <span class="button-text-img demo-drive-text">Demo Drive</span>
+          </button>
+        </div>
+      </div>
+      <!------------------------------------HOME SCREEN IMAGE 4------------------------------------>
+      <div class="image-4-9-full-continer">
+        <!--HOME SCREEN IMAGE 4-->
+        <img class="homepage-image" src="Tesla-Images/homepage/Homepage-Image4.png" alt="Model S">
+        <!--TEXTS ABOVE HOME SCREEN IMAGE 4-->
+        <div id="homepage-image4-texts">
+          <h1 class="model-name-white">Model S</h1>
+          <p class="rate">
+            <strong class="price-white">From $66,490<sup class="sup-price">4</sup></strong>
+            <br>
+            <sub>
+              <small class="price-info-white">After Est. Savings</small>
+            </sub>
+          </p>
+        </div>
+        <!--BUTTONS ABOVE HOME SCREEN IMAGE 4-->
+        <div id="img4-options-order">
+          <button class="button-img">
+            <span class="button-text-img">Order Now</span>
+          </button>
+          <button class="button-img demo-drive-button">
+            <span class="button-text-img demo-drive-text">Demo Drive</span>
+          </button>
+        </div>
+      </div>
+
+      <!------------------------------------HOME SCREEN IMAGE 5------------------------------------>
+      <div class="image-4-9-full-continer">
+        <img class="homepage-image" src="Tesla-Images/homepage/Homepage-Image5.png" alt="Cybertruck">
+        <!--Cybertruck Text Image Above Homepage Image-->
+        <img id="cybertruck-img" src="Tesla-Images/homepage/Tesla_Cybertruck-Logo.wine.svg" alt="Cybertruck text image">
+        <!--BUTTONS ABOVE HOME SCREEN IMAGE 5-->
+        <div id="img5-options-order">
+          <button id="button-img5-order">
+            <span id="button-img5-ordertext">Order Now</span>
+          </button>
+          <button id="button-img5-learn">
+            <span id="button-img5-learntext">Learn More</span>
+          </button>
+        </div>
+      </div>
+
+      <!------------------------------------HOME SCREEN IMAGE 6------------------------------------>
+      <div class="image-4-9-full-continer">
+        <img class="homepage-image" src="Tesla-Images/homepage/Homepage-Image6.png" alt="Solar Panels">
+        <!--TEXTS ABOVE HOME SCREEN IMAGE 6-->
+        <div id="homepage-image6-texts">
+          <h1 id="img6-product">Solar Panels</h1>
+          <p id="schedule-consultation">
+            <a href="" id="consultation-link">Schedule a Virtual Consultation</a>
+          </p>
+        </div>
+        <!--BUTTONS ABOVE HOME SCREEN IMAGE 6-->
+        <div id="img6-options-order">
+          <button class="button-img">
+            <span class="button-text-img">Order Now</span>
+          </button>
+          <button class="button-img demo-drive-button"><!-- HERE DEMO BUTTON IS GIVEN AS CLASS BECAUSE THE TEXT ONLY HAS DIFFERENCE HERE  -->
+            <span class="button-text-img demo-drive-text">Learn More</span>
+          </button>
+        </div>
+      </div>
+      <!------------------------------------HOME SCREEN IMAGE 7------------------------------------>
+      <div class="image-4-9-full-continer">
+        <img class="homepage-image" src="Tesla-Images/homepage/Homepage-Image7.png" alt="Solar Roof">
+        <!--TEXTS ABOVE HOME SCREEN IMAGE 7-->
+        <div id="homepage-image7-texts">
+          <h1 class="model-name-black">Solar Roof</h1>
+          <p id="solar-roof-description">Produce Clean Energy From Your Roof</p>
+        </div>
+        <!--BUTTONS ABOVE HOME SCREEN IMAGE 7-->
+        <div id="img7-options-order">
+          <button class="button-img">
+            <span class="button-text-img">Order Now</span>
+          </button>
+          <button class="button-img demo-drive-button"><!-- HERE DEMO BUTTON IS GIVEN AS CLASS BECAUSE THE TEXT ONLY HAS DIFFERENCE HERE  -->
+            <span class="button-text-img demo-drive-text">Learn More</span>
+          </button>
+        </div>
+      </div>
+      <!------------------------------------HOME SCREEN IMAGE 8------------------------------------>
+      <div class="image-4-9-full-continer">
+        <img class="homepage-image" src="Tesla-Images/homepage/Homepage-Image8.png" alt="Powerwall">
+        <!--TEXTS ABOVE HOME SCREEN IMAGE 8-->
+        <div id="homepage-image8-texts">
+          <h1 class="model-name-black">Powerwall</h1>
+        </div>
+        <!--BUTTONS ABOVE HOME SCREEN IMAGE 8-->
+        <div id="img8-options-order">
+          <button class="button-img">
+            <span class="button-text-img">Order Now</span>
+          </button>
+          <button class="button-img demo-drive-button"><!-- HERE DEMO BUTTON IS GIVEN AS CLASS BECAUSE THE TEXT ONLY HAS DIFFERENCE HERE  -->
+            <span class="button-text-img demo-drive-text">Learn More</span>
+          </button>
+        </div>
+      </div>
+      <!------------------------------------HOME SCREEN IMAGE 9------------------------------------>
+      <div class="image-4-9-full-continer">
+        <img class="homepage-image" src="Tesla-Images/homepage/Homepage-Image9.png" alt="Accessories">
+        <!--TEXTS ABOVE HOME SCREEN IMAGE 9-->
+        <div id="homepage-image9-texts">
+          <h1 class="model-name-black">Accessories</h1>
+        </div>
+        <!--BUTTONS ABOVE HOME SCREEN IMAGE 9-->
+        <div id="img9-options-order">
+          <button class="button-img">
+            <span class="button-text-img">Shop Now</span>
           </button>
         </div>
       </div>
